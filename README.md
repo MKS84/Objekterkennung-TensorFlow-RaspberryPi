@@ -3,8 +3,8 @@ Realisierung einer Objekterkennung auf einem Raspberry Pi
 
 # Objekterkennung auf einem Raspberry Pi mit TensorFlow
 
-![]()
-![]()
+![PiCam](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/Pi_cam.jpg)
+![TensorFlow](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/tensorflow2objectdetection.png)
 
 ---
 
@@ -166,13 +166,13 @@ Zum Trainieren der KI wird "Teachable Machine" von Google verwendet.
 
 Teachable Machine kann im Browser über den Link [https://teachablemachine.withgoogle.com/](https://teachablemachine.withgoogle.com/) aufgerufen werden. Nach Klick auf "Erste Schritte" zu einem Auswahlmenü, in dem man wählen kann, ob man eine bildbasierte, audiobasierte oder posenbasierte Erkennung trainieren möchte. Für unsere Zwecke nehmen wir die bildbasierte Erkennung über den Menüpunkt " Bildprojekt". Auf der nächsten Seite kann man die gewünschten Klassen definieren und entweder per Webcam oder Upload zur Verfügung stellen, auf deren Basis ein Modell trainiert werden soll.
 
-![]()
+![Screenshot 1](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/Bildschirmfoto%201.png)
 
 Für ein besseres Ergebnis empfiehlt sich, Bilder vom zu erkennenden Objekt in verschiedenen Winkeln und unter verschiedenen Belichtungen der Software zur Verfügung zu stellen.
 
 Mit Klick auf "Modell trainieren" beginnt die Software das Modell zu erstellen. Um das fertige Modell dann mit TensorFlow verwenden zu können, muss dieses unter "Modell exportieren" im Reiter "Tensorflow" als "Savedmodel" heruntergeladen werden.
 
-![]()
+![Screenshot 2](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/Bildschirmfoto%202.png)
 
 ## 7 Implementierung der Objekterkennung
 
@@ -183,7 +183,7 @@ Um das gespeicherte Archiv als zugrundeliegendes Modell der Objekterkennung in T
     # source .venv/bin/activate 
     # python3 tests/pitft_teachablemachine.py ../converted_savedmodel.zip
 
-![]()
+![Screenshot 3](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/Braincraft.png)
 
 ## 8 Literatur- und Abbildungsverzeichnis
  
