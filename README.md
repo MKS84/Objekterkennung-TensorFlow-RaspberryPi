@@ -22,7 +22,25 @@ Markus Kraft, Max Kätscher, Thomas Weisel
 
 ## 1 Inhaltsverzeichnis
 
-[TOC]
+1 Inhaltsverzeichnis
+2 Einleitung
+3 Benötigte Komponenten
+4 Vorbereitung des Raspberry Pis
+5 Installation von TensorFlow 
+    5.1 Disclaimer 
+    5.2 Python installieren
+    5.3 TensorFlow Lite 2 installieren
+        5.3.1 Voraussetzungen
+        5.3.2 Virtuelle Umgebung
+        5.3.3 rpi-vision installieren
+        5.3.4 TensorFlow 2.x installieren
+    5.4 Ausführen der Graphic Labeling Demo
+    5.5 Anpassen der Bildschirmausgabe
+6 Trainieren der KI
+7 Implementierung der Objekterkennung
+8 Literatur- und Abbildungsverzeichnis
+    Websites
+    Bilder
 
 ## 2 Einleitung
 
