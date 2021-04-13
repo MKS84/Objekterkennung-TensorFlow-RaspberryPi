@@ -22,7 +22,7 @@ Markus Kraft, Max Kätscher, Thomas Weisel
 
 ## 1 Inhaltsverzeichnis
 
-1 Inhaltsverzeichnis
+1 Inhaltsverzeichnis  
 2 Einleitung
 3 Benötigte Komponenten
 4 Vorbereitung des Raspberry Pis
