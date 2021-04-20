@@ -236,6 +236,9 @@ Um die Trefferquote zu verbessern bräuchte man daher ein Vielzahl an unterschie
 
 [https://1.bp.blogspot.com/-HKhrGghm3Z4/Xwd6oWNmCnI/AAAAAAAADRQ/Hff-ZgjSDvo7op7aUtdN--WSuMohSMn-gCLcBGAsYHQ/s1600/tensorflow2objectdetection.png](https://1.bp.blogspot.com/-HKhrGghm3Z4/Xwd6oWNmCnI/AAAAAAAADRQ/Hff-ZgjSDvo7op7aUtdN--WSuMohSMn-gCLcBGAsYHQ/s1600/tensorflow2objectdetection.png)
 
- 
+**Kapitel 9**
+
+https://image.freepik.com/free-vector/coronavirus-2019-ncov-covid-19-disease-prevention-concept-man-with-wearing-face-mask-without-mask-health-care-isolated-white-background-illustration_83111-597.jpg 
+
 
 
