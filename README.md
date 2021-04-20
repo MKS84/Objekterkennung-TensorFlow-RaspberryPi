@@ -38,7 +38,8 @@ Markus Kraft, Max Kätscher, Thomas Weisel
     5.5 Anpassen der Bildschirmausgabe  
 6 Trainieren der KI  
 7 Implementierung der Objekterkennung  
-8 Literatur- und Abbildungsverzeichnis  
+8 Bewertung der KI
+9 Literatur- und Abbildungsverzeichnis  
     Websites  
     Bilder  
 
@@ -203,7 +204,21 @@ Um das gespeicherte Archiv als zugrundeliegendes Modell der Objekterkennung in T
 
 ![Screenshot 3](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/Braincraft.png)
 
-## 8 Literatur- und Abbildungsverzeichnis
+## 8 Bewertung der KI
+
+Die Trefferquote der Künstlichen Intelligenz hängt stark von den übergebenen Fotos ab. Die für das Trainieren der KI verwendeten Fotos sollten das zu erkennende Objekt in möglichst vielen Kamerawinkeln zeigen. Auch verschiedene Lichtverhältnisse und Bildhintergründe ermöglichen es die KI besser auf das Erkennen des gewünschten Objekts zu trainieren.
+
+Im Rahmen dieses Projekts wurden mehrere Bildquellen für das Training der KI verwendet. Neben der Aufnahme von Fotos über die Webcam auf der Website von Teachable Machine wurden der KI mehrere Hundert Fotos von Objekten aus kostenlosen Fotokatalogen zur Verfügung gestellt. Es zeigte sich jedoch, dass selbst diese Anzahl wohl zu gering war.
+
+Die besten Ergebnisse werden erreicht, wenn beim Testen der KI die gleichen Voraussetzungen wie beim Training der KI herrschen. So wurde die KI beispielsweise mithilfe von Teachable Machine darauf trainiert zu erkennen, ob eine Person vor der Kamera eine FFP2-Maske trägt oder nicht. Solange es sich um dieselbe Person und denselben Hintergrund wie aus den Trainingsdaten handelte, war die Trefferquote relativ hoch. Sobald jedoch eine andere Person ins Bild kam oder sich der Hintergrund veränderte, fiel die Trefferquote rapide ab.
+
+Eine weitere Problematik, die sich hier ergibt, ist die Tatsache, dass man nicht genau sagen kann, wie die KI erkennt, ob die Person eine Maske trägt oder nicht. Für uns Menschen ist es relativ einfach zu sagen, wann welcher Fall gegeben ist, da es für uns einfach ist eine Maske zu erkennen. Die KI hingegen "kennt" keine Maske. Was sie vielleicht erkennt ist eine weiße Region in der Mitte des Bildes. Oder das Verhältnis der Helligkeit zwischen Bildmittelpunkt und Bildrand. Vielleicht "konzentriert" sich die KI gar nicht mal auf den Teil des Bildes, in dem die Maske des Trägers zu sehen ist, sondern auf einen völlig anderen Teil des eingelesenen Bildes. Das kann, wie in unserem Beispiel, dazu führen, dass selbst eine minimale Veränderung des Bildhintergrundes die Trefferquote verschlechtert.
+
+Um die Trefferquote zu verbessern bräuchte man daher ein Vielzahl an unterschiedlichen Fotos, welche im besten Fall sogar so ausgewählt sind, dass das zu erkennende Merkmal besonders eindeutig präsent ist. Eine weitere Hilfe für die KI könnte es sein, den Bereich für die Erkennung einzugrenzen. In unserem Beispiel mit der Maske könnte man davon ausgehen, dass diese in den meisten Fällen in der Bildmitte zu finden ist, und so die Erkennung auf diesen Bereich fokusieren.
+
+![Face Mask Detection](https://github.com/MKS84/Objekterkennung-TensorFlow-RaspberryPi/blob/main/Bilder/coronavirus-2019-ncov-covid-19-disease-prevention-concept-man-with-wearing-face-mask-without-mask-health-care-isolated-white-background-illustration_83111-597.jpg)
+
+## 9 Literatur- und Abbildungsverzeichnis
  
 ### Websites
 
